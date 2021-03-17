@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="css\index.css">
+    <link rel="stylesheet" href="node_modules\bootstrap\dist\css\bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules\bootstrap-icons\font\bootstrap-icons.css">
+</head>
+<body>
+  <div class="container text-center mt-5">
+      <h1>To-Do List</h1><br>
+      <h4><span class="text-warning">Enter text into the input field to add items to your list.</span></h4>
+      <br>
+      <h4><span class="green">Click the item to mark it is complete</span></h4>
+      <br>
+      <h4><span class="text-muted">Click the "X" to remove the item from your list.</span></h4>
+      <br>
+
+      <input type="text" id="items" maxlength="27" placeholder="New item..." required>
+      <button id="enter"><i class="bi bi-pen-fill"></i></button>
+    <div class="row">
+    <div class="listing mx-auto">
+      <ul class="col-12  ">
+
+      </ul>
+    </div>
+  </div>
+  </div> 
+
+
+
+
+
+      <script src="js\index.js"></script>
+      <script src="node_modules\bootstrap\dist\js\bootstrap.min.js"></script>
+</body>
+</html>
